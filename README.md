@@ -1,7 +1,7 @@
 # RISE ASSIGNMENT
 Assignment for Research Engineer position at RISE.
 
-This project was built as an assignment for a Research position at RISE. Due to the automatic creation of the requirements file, additional automatically installed packages in the Google Collab environment have also been included. As such, the first cell of the notebook can also be used as a reference if the project is being runned in a local environment.
+This project was built as an assignment for a Research position at RISE. Due to the automatic creation of the requirements file, additional automatically installed packages in the Google Collab environment have also been included. As such, the first cell of the notebook can also be used as a reference if the project is being run in a local environment.
 
 The following project was largely built on top of the tutorial on token classification provided by HuggingFace: https://huggingface.co/learn/nlp-course/chapter7/2?fw=pt. However, the contents of the file have been partly adjusted in order to fit with the details given in the assignment description. As such, the project implements two BERT-base models (https://huggingface.co/bert-base-cased) fine-tuned on two separate alternations of the same dataset (https://huggingface.co/datasets/Babelscape/multinerd?row=17) but tested on the same test set. Thus, model A acknowledges all 30 NER tags in the given dataset while training. Contrastingly, model B only acknowledges 10 of the NER tags in the training set. Consequently, all other NER tags are seen as non-entities.
 
