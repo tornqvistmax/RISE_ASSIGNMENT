@@ -1,4 +1,4 @@
-# RISE_ASSIGNMENT
+# RISE ASSIGNMENT
 Assignment for Research Engineer position at RISE.
 
 This project was built as an assignment for a Research position at RISE. Due to the automatic creation of the requirements file, additional automatically installed packages in the Google Collab environment have also been included. As such, the first cell of the notebook can also be used as a reference, if running the project on a local environment.
